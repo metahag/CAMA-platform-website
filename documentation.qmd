@@ -1,0 +1,8 @@
+---
+title: "Documentation"
+format:
+  html:
+    theme: default
+    toc: true
+    number-sections: true
+---

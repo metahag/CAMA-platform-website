@@ -1,0 +1,18 @@
+---
+title: "CAMA Platform"
+---
+
+Welcome to the Disability/ELD CAMA platform, where
+we aim to set a new standard for promoting FAIR (findable, accessible,
+interoperable, reusable) data sharing in the disability research and
+education fields. Our dynamic and interactive platform provides
+meta-analytic tools to conduct both frequentist and Bayesian
+meta-analyses of educational interventions for typically developing
+students and students with intellectual disabilities, with further
+subdivision into educational domains.
+
+We provide apps that allow for high flexibility in model building and
+provide plain and technical explanations/summaries of statistical
+outputs. Our goal is to make these apps an easy-to-use tool for students
+and researchers aiming to conduct meta-analyses and serve as a guide on
+evidence-based practices for practitioners.

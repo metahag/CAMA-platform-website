@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "CAMA Platform"
+  navbar:
+    search: true
+    left:
+      - text: "Frequentist Meta-Analysis"
+        href: "http://194.47.110.50:3838/visualization/"
+      - text: "Bayesian Meta-Analysis"
+        href: "http://194.47.110.51:3838/"
+      - text: "Data Validation"
+  sidebar:
+    tools:
+      - icon: github
+        href: "https://github.com/trustIndex-togge/eld"
+    contents: 
+      - section: "Home"
+        contents: 
+          - index.qmd
+          - about.qmd
+          - documentation.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
