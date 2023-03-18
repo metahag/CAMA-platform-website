@@ -1,15 +1,10 @@
----
-title: "CAMA Platform"
----
+
+```{=html}
 <style>
   body {
   background-image: url("images/landing_page.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-  
-</style>
 
-
-
-
+```
