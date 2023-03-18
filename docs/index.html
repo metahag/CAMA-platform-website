@@ -148,14 +148,13 @@ ul.task-list li input[type="checkbox"] {
 <style>
   body {
   background-image: url("images/landing_page.svg");
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-size: 100% auto;
   }
 
 .container {
-  width: 50%;
+  position: relative;
+  width: 120%;
+  height: 120%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 80px;
   text-transform: uppercase;
   font-family: 'Gambetta', serif;
   letter-spacing: -3px;
@@ -173,6 +172,7 @@ h1 {
   color: #CEEFF6;
   outline: none;
   text-align: center;
+  position: relative;
 }
 
 h1:hover {
@@ -180,21 +180,13 @@ h1:hover {
   letter-spacing: 1px;
 }
 
-p {
-  font-size: 1.2em;
-  line-height: 150%;
-  text-align: center;
-  color: MintCream;
-  letter-spacing: .5px;
-}
+
 </style>
 
 <div class="container">
   <h1 contenteditable="">CAMA Platform</h1>
-  <p>Educational interventions</p>
 </div>
 }
-
 
 
 
