@@ -144,19 +144,61 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <style>
   body {
   background-image: url("images/landing_page.svg");
   background-size: cover;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden" data-render-id="quarto-int-sidebar-title">ELD CAMA</span> <span class="hidden" data-render-id="quarto-int-navbar-title">ELD CAMA</span> <span class="hidden" data-render-id="quarto-int-navbar:Home">Home</span> <span class="hidden" data-render-id="quarto-int-navbar:Information">Information</span> <span class="hidden" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden" data-render-id="quarto-int-navbar:Documentation">Documentation</span> <span class="hidden" data-render-id="quarto-int-navbar:Apps">Apps</span> <span class="hidden" data-render-id="quarto-int-navbar:Frequentist Meta-Analysis">Frequentist Meta-Analysis</span> <span class="hidden" data-render-id="quarto-int-navbar:Bayesian Meta-Analysis">Bayesian Meta-Analysis</span> <span class="hidden" data-render-id="footer-left">Attribution 4.0 International (CC BY 4.0)</span> <span class="hidden" data-render-id="footer-right"><a href="https://lnu.se/">Linnaeus University</a> and <a href="https://liu.se/en">Linköping University</a></span></p>
+h1 {
+  font-size: 90px;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: #CEEFF6;
+  outline: none;
+  text-align: center;
+}
+
+h1:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 150%;
+  text-align: center;
+  color: MintCream;
+  letter-spacing: .5px;
+}
+</style>
+
+<div class="container">
+  <h1 contenteditable="">CAMA Platform</h1>
+  <p>Educational interventions</p>
 </div>
+}
 
 
- <!-- /main -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -405,19 +447,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">
-      <div class="footer-contents">Attribution 4.0 International (CC BY 4.0)</div>  
-    </div>   
-    <div class="nav-footer-right">
-      <div class="footer-contents">[Linnaeus University](https://lnu.se/) and [Linköping University](https://liu.se/en)</div>  
-    </div>
+    <div class="nav-footer-left">Attribution 4.0 International (CC BY 4.0)</div>   
+    <div class="nav-footer-right"><a href="https://lnu.se/">Linnaeus University</a> and <a href="https://liu.se/en">Linköping University</a></div>
   </div>
 </footer>
 
 
 
-</style></main></div><script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
