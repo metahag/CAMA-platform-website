@@ -4,29 +4,46 @@ project:
 
 website:
   title: "CAMA Platform"
+  open-graph: true
   navbar:
+    background: dark
     search: true
-    left:
-      - text: "Frequentist Meta-Analysis"
-        href: "http://194.47.110.50:3838/visualization/"
-      - text: "Bayesian Meta-Analysis"
-        href: "http://194.47.110.51:3838/"
-      - text: "Data Validation"
+    right:
+        - icon: github
+          href: "https://github.com/trustIndex-togge/eld"
+        - text: "Home"
+          file: index.qmd
+        - sidebar:About
+        - sidebar:Apps
   sidebar:
-    tools:
-      - icon: github
-        href: "https://github.com/trustIndex-togge/eld"
-    contents: 
-      - section: "Home"
-        contents: 
-          - index.qmd
-          - about.qmd
-          - documentation.qmd
+    - id: About
+      title: Information
+      style: docked
+      background: dark
+      contents: 
+        - about.qmd
+        - documentation.qmd
+    - id: Apps
+      title: Apps
+      background: dark
+      contents:
+        - text: "Frequentist Meta-Analysis"
+          href: "http://194.47.110.50:3838/visualization/"
+        - text: "Bayesian Meta-Analysis"
+          href: "http://194.47.110.51:3838/"
+        - text: "Data Validation"
+  page-footer:
+    background: dark
+    border: false
+    left: "Attribution 4.0 International (CC BY 4.0)"
+    right: "[Linnaeus University](https://lnu.se/) and [Linköping University](https://liu.se/en)"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    smooth-scroll: true
+    theme: 
+      light: cosmo
+      dark: cosmo
     toc: true
 
 editor: visual
