@@ -144,11 +144,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
 <style>
   body {
   background-image: url("images/landing_page.svg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   }
 
@@ -156,14 +155,13 @@ ul.task-list li input[type="checkbox"] {
   position: relative;
   width: 120%;
   height: 120%;
-  display: flex;
+  display: flex; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 h1 {
-  font-size: 80px;
   text-transform: uppercase;
   font-family: 'Gambetta', serif;
   letter-spacing: -3px;
@@ -176,16 +174,23 @@ h1 {
   position: relative;
 }
 
-h1:hover {
-  font-variation-settings: "wght" 582; 
-  letter-spacing: 1px;
+@media screen and (min-width: 600px) {
+  div.example {
+    font-size: 90px;
+  }
 }
 
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 20px;
+  }
+}
 
-</style>
+</div></style>
 
 <div class="container">
-  <h1 contenteditable="">CAMA Platform</h1>
+  <h1>CAMA Platform</h1>
 </div>
 }
 
