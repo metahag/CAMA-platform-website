@@ -1,7 +1,7 @@
 ```{=html}
 <style>
   body {
-  background-image: url("images/landing_page.svg");
+  background-image: url("images/landing_page.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   }
