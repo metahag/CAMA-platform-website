@@ -28,11 +28,11 @@ website:
       background: dark
       contents:
         - text: "Frequentist Meta-Analysis"
-          href: "http://194.47.110.50:3838/frequentist_meta/app.R"
+          href: "http://194.47.110.51:3838/frequentist_meta/"
         - text: "Bayesian Meta-Analysis"
-          href: "http://194.47.110.51:3838/bayesian_meta/app.R"
+          href: "http://194.47.110.51:3838/bayesian_meta/"
         - text: "Data Validation"
-        - href: "http://194.47.110.51:3838/data_validation/app.R"
+          href: "http://194.47.110.51:3838/data_validation/"
   page-footer:
     background: dark
     border: false
